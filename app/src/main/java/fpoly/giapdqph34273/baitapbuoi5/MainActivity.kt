@@ -100,7 +100,7 @@ fun GetLayout(title: String) {
 }
 
 @Composable
-fun duongKeNgang() {
+private fun duongKeNgang() {
     Row(
         verticalAlignment = Alignment.CenterVertically,
         modifier = Modifier
@@ -125,7 +125,7 @@ fun navBar() {
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.SpaceEvenly,
             modifier = Modifier
-                .padding(10.dp, 10.dp, 10.dp, 10.dp)
+                .padding(10.dp)
                 .fillMaxWidth()
         ) {
 
@@ -176,7 +176,7 @@ fun nutThanhToan() {
 }
 
 @Composable
-fun diaChi() {
+private fun diaChi() {
     Column(
         modifier = Modifier
             .padding(10.dp, 0.dp, 10.dp, 30.dp)
@@ -217,7 +217,7 @@ fun diaChi() {
 }
 
 @Composable
-fun getRowItem(color: Color, text: String, image: String) {
+private fun getRowItem(color: Color, text: String, image: String) {
     Row(
         verticalAlignment = Alignment.CenterVertically,
         modifier = Modifier
@@ -259,7 +259,7 @@ fun AsyncImage(url: String, modifier: Modifier = Modifier) {
 }
 
 @Composable
-fun GetTextTitle(title: String) {
+private fun GetTextTitle(title: String) {
     Text(
         title,
         modifier = Modifier
