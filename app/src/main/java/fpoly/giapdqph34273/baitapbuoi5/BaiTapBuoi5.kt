@@ -201,6 +201,7 @@ fun GetLayout(
     }
 }
 
+
 @Composable
 fun navBar() {
     val items = listOf("Trang chủ", "Lịch sử", "Giỏ hàng", "Hồ sơ")
